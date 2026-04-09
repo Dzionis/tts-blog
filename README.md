@@ -1,6 +1,6 @@
 # AIDente Blog
 
-SEO-блог для приложения [AIDente - AI Calorie Counter](https://apps.apple.com/us/app/aidente-ai-calorie-counter/id6751173116).
+SEO-блог для приложения [AIDente - AI Calorie Counter](https://apps.apple.com/us/app/id739280962).
 
 Сайт: **aidente.net** · Стек: Jekyll + GitHub Pages · Деплой: автоматический при push в `main`
 

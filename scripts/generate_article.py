@@ -17,7 +17,7 @@ import subprocess
 import sys
 from datetime import date
 
-APP_STORE_URL = "https://apps.apple.com/us/app/aidente-ai-calorie-counter/id6751173116"
+APP_STORE_URL = "https://apps.apple.com/us/app/id739280962"
 
 PROMPT_TEMPLATE = """Generate a complete Jekyll blog post for the Text to Speech blog (Text to Speech iOS app).
 
