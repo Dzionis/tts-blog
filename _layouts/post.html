@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="container post">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.categories.first %}<span class="post-category">{{ page.categories.first }}</span>{% endif %}
+      <span class="reading-time">{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-cta">
+    <h2>Start Tracking with AIDente</h2>
+    <p>Download free on iPhone and start counting calories by photo, voice, or text.</p>
+    <a href="{{ site.app_store_url }}" class="btn-white" target="_blank" rel="noopener">
+      Download on App Store — Free
+    </a>
+  </div>
+</article>

@@ -1,0 +1,39 @@
+title: AIDente - AI Calorie Counter
+description: "Track calories with AI. AIDente uses your iPhone camera to identify food and calculate calories instantly — no manual entry needed."
+url: "https://aidente.net"
+baseurl: ""
+
+app_store_url: "https://apps.apple.com/us/app/aidente-ai-calorie-counter/id6751173116"
+
+author:
+  name: AIDente Team
+
+social:
+  name: AIDente
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+permalink: /blog/:year/:month/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AIDente Team"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - README.md
+  - vendor/

@@ -1,0 +1,122 @@
+---
+layout: default
+title: "AIDente - AI Calorie Counter for iPhone"
+description: "Track calories with AI. Take a photo of your food and AIDente instantly calculates calories, protein, carbs, and fat. Free for iPhone."
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <span class="hero-badge">AI-Powered</span>
+      <h1>Count Calories with AI,<br>Not Effort</h1>
+      <p class="hero-sub">Snap a photo of any meal. AIDente's AI identifies your food and calculates calories, protein, carbs, and fat in seconds — no manual entry required.</p>
+      <div class="hero-cta">
+        <a href="{{ site.app_store_url }}" class="appstore-badge" target="_blank" rel="noopener" aria-label="Download AIDente on the App Store">
+          <span class="badge-icon"></span>
+          <span class="badge-text">
+            <span class="badge-subtitle">Download on the</span>
+            <span class="badge-title">App Store</span>
+          </span>
+        </a>
+        <span class="hero-price">Free &middot; Pro from $1.99/week</span>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="mockup-content">
+            <div class="mockup-label">📸 Analyzing photo...</div>
+            <div class="mockup-result">
+              <div class="mockup-food">🥗 Caesar Salad</div>
+              <div class="mockup-calories">285 kcal</div>
+              <div class="mockup-macros">
+                <span>P: 12g</span>
+                <span>C: 18g</span>
+                <span>F: 16g</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+  <div class="container">
+    <h2 class="section-title">Track nutrition without the hassle</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📷</div>
+        <h3>Snap &amp; Count</h3>
+        <p>Point your camera at any food. AI recognizes it instantly and logs calories and macros automatically.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Instant Macros</h3>
+        <p>Get protein, carbs, fat, and fiber for every meal — not just calories. Understand exactly what you're eating.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Personal Goals</h3>
+        <p>Set daily targets for weight loss, maintenance, or muscle gain. Track your progress over time.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎙️</div>
+        <h3>Voice &amp; Text</h3>
+        <p>No camera? Say "I had oatmeal with berries" or just type it. AIDente handles any input method.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Social Proof -->
+<section class="trust">
+  <div class="container trust-inner">
+    <div class="trust-stat">
+      <span class="trust-number">3</span>
+      <span class="trust-label">ways to log food</span>
+    </div>
+    <div class="trust-divider"></div>
+    <blockquote class="trust-text">
+      <p>"The fastest calorie tracker I've used. Photo recognition is surprisingly accurate for restaurant meals."</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- Bottom CTA -->
+<section class="bottom-cta">
+  <div class="container bottom-cta-inner">
+    <h2>Start tracking in 30 seconds</h2>
+    <p>Download free. No account required to get started.</p>
+    <a href="{{ site.app_store_url }}" class="btn-primary" target="_blank" rel="noopener">
+      Download on App Store
+    </a>
+  </div>
+</section>
+
+<!-- Blog Preview -->
+{% if site.posts.size > 0 %}
+<section class="blog-preview">
+  <div class="container">
+    <div class="blog-preview-header">
+      <h2>From the Blog</h2>
+      <a href="{{ '/blog/' | relative_url }}" class="link-more">All articles →</a>
+    </div>
+    <div class="posts-grid">
+      {% for post in site.posts limit:3 %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        <div class="post-card-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.categories.first %}<span class="tag">{{ post.categories.first }}</span>{% endif %}
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
