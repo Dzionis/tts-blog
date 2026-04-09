@@ -1,4 +1,4 @@
-Generate a new SEO blog post for the AIDente blog (AI Calorie Counter iOS app) and save it to the `_posts/` folder.
+Generate a new SEO blog post for the Text to Speech blog (Text to Speech iOS app) and save it to the `_posts/` folder.
 
 **Usage:** `/new-post topic | primary keyword`
 **Example:** `/new-post how to count macros for weight loss | macro counting app`
@@ -19,7 +19,7 @@ Parse $ARGUMENTS by splitting on " | ":
 - `description:` Meta description, strictly under 155 characters
 - `date:` today's date in format `YYYY-MM-DD 10:00:00 +0000`
 - `categories:` single-item YAML list, pick one: `[nutrition]`, `[apps]`, `[weight-loss]`, or `[recipes]`
-- `author: AIDente Team`
+- `author: Text to Speech Team`
 
 **Body content rules:**
 - 900–1100 words of body text
@@ -31,7 +31,7 @@ Parse $ARGUMENTS by splitting on " | ":
 - Do NOT include any App Store links in the body — the post layout adds a CTA button automatically
 
 **Required ending section:**
-Close with an H2 titled exactly `Start Tracking with AIDente` — write 2–3 sentences naturally positioning AIDente as the solution to the problem the article addresses. No links, no markdown badges.
+Close with an H2 titled exactly `Start Listening with Text to Speech` — write 2–3 sentences naturally positioning Text to Speech as the solution to the problem the article addresses. No links, no markdown badges.
 
 ---
 

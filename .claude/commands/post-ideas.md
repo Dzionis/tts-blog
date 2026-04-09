@@ -1,4 +1,4 @@
-Generate fresh SEO blog post ideas for the AIDente blog (AI Calorie Counter iOS app), avoiding repetition with already published posts.
+Generate fresh SEO blog post ideas for the Text to Speech blog (Text to Speech iOS app), avoiding repetition with already published posts.
 
 ## Step 1 — Read existing posts
 

@@ -1,15 +1,15 @@
-title: AIDente - AI Calorie Counter
-description: "Track calories with AI. AIDente uses your iPhone camera to identify food and calculate calories instantly — no manual entry needed."
+title: Text to Speech - AI Book Reader
+description: "Turn text into natural-sounding speech in seconds. Import PDFs, docs, and photos, then listen anywhere on iPhone and iPad."
 url: "https://aidente.net"
 baseurl: ""
 
-app_store_url: "https://apps.apple.com/us/app/aidente-ai-calorie-counter/id6751173116"
+app_store_url: "https://apps.apple.com/us/app/id739280962"
 
 author:
-  name: AIDente Team
+  name: Text to Speech Team
 
 social:
-  name: AIDente
+  name: Text to Speech
 
 markdown: kramdown
 kramdown:
@@ -29,7 +29,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "AIDente Team"
+      author: "Text to Speech Team"
 
 exclude:
   - Gemfile

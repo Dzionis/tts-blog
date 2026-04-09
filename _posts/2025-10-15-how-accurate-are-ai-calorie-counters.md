@@ -4,7 +4,7 @@ title: "How Accurate Are AI Calorie Counters? We Tested It"
 description: "AI calorie counters promise instant tracking from a photo — but how accurate are they really? Here's what the data and real-world testing show."
 date: 2025-10-15 10:00:00 +0000
 categories: [apps]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Food logging has a reputation for being tedious. You weigh your chicken breast, open your app, type "grilled chicken," scroll through a dozen database entries, and wonder if you even picked the right one. AI calorie counters promise to replace all of that with a single photo. The obvious question: how accurate are they, really?
@@ -68,6 +68,6 @@ To maximize accuracy with an AI food recognition app:
 
 The goal isn't a perfect log — it's a complete one. AI calorie counters are accurate enough to build real insight into your diet when used consistently and reviewed briefly.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-AIDente is built to hit the sweet spot between speed and accuracy — fast enough that you'll actually use it every day, precise enough that the data is meaningful. Snap a photo of your meal and AIDente's AI identifies your foods, estimates portions, and logs your calories and macros in seconds. For anyone who wants consistent, low-effort calorie tracking on iPhone, it removes the biggest barrier to getting started: the friction of logging itself.
+Text to Speech is built to hit the sweet spot between speed and accuracy — fast enough that you'll actually use it every day, precise enough that the data is meaningful. Snap a photo of your meal and Text to Speech's AI identifies your foods, estimates portions, and logs your calories and macros in seconds. For anyone who wants consistent, low-effort calorie tracking on iPhone, it removes the biggest barrier to getting started: the friction of logging itself.

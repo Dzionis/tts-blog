@@ -4,7 +4,7 @@ title: "How to Track Calories at Restaurants Without Ruining Your Night Out"
 description: "Tracking calories eating out doesn't mean skipping dessert or interrogating your server. Here's a practical approach that actually works."
 date: 2025-12-08 10:00:00 +0000
 categories: [nutrition]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Restaurant meals are one of the biggest friction points in calorie tracking. The portions are unpredictable, the preparation is opaque, and the last thing you want to do at dinner with friends is pull out a food scale or interrogate the kitchen about ingredient quantities. Yet eating out is a regular part of most people's lives — and if you skip logging those meals entirely, you're leaving a significant gap in your data.
@@ -66,6 +66,6 @@ Studies indicate that consistent incomplete tracking outperforms sporadic precis
 
 The goal isn't to ruin dinner by obsessing over every calorie — it's to maintain the logging habit, capture the broad shape of what you ate, and preserve the data continuity that makes tracking useful over time.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-AIDente is designed for exactly this situation. A three-second photo of your restaurant plate gives you an instant AI-generated calorie estimate with zero data entry. Review it, adjust if needed, and you're done — your evening continues without interruption, your log stays intact, and you keep the streak going without the stress.
+Text to Speech is designed for exactly this situation. A three-second photo of your restaurant plate gives you an instant AI-generated calorie estimate with zero data entry. Review it, adjust if needed, and you're done — your evening continues without interruption, your log stays intact, and you keep the streak going without the stress.

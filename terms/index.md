@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Terms of Use"
-description: "AIDente Terms of Use — the rules and conditions for using the AIDente app."
+description: "Text to Speech Terms of Use — the rules and conditions for using the Text to Speech app."
 ---
 
 **Effective Date: 21/08/2025**
 
-AIDente, developed and operated by Yauheni Chyruk ("we," "our," or "us"), provides this mobile application (the "App") subject to the following Terms of Use ("Terms"). By downloading or using the App, you agree to these Terms. Please read them carefully.
+Text to Speech, developed and operated by Yauheni Chyruk ("we," "our," or "us"), provides this mobile application (the "App") subject to the following Terms of Use ("Terms"). By downloading or using the App, you agree to these Terms. Please read them carefully.
 
 ## 1. Use of the App
 

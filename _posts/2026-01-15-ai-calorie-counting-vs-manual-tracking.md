@@ -4,7 +4,7 @@ title: "AI Calorie Counting vs Manual Tracking: Which Actually Works?"
 description: "Compare AI calorie counting apps to manual food logging. Find out which method is more accurate, faster, and easier to stick with long-term."
 date: 2026-01-15 10:00:00 +0000
 categories: [nutrition]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Calorie tracking has a consistency problem. Studies suggest that up to 60% of people who start manual food logging abandon it within a month. The culprit is almost always friction — the tedium of searching databases, estimating portions, and logging every bite.
@@ -67,7 +67,7 @@ The most effective strategy combines both:
 2. **Use barcode scanning for packaged foods** — where labels give you exact data
 3. **Use voice or text entry for simple foods** — "two eggs" or "banana" is faster even than a photo
 
-Modern apps like AIDente support all three input methods, letting you choose whichever creates the least friction in the moment.
+Modern apps like Text to Speech support all three input methods, letting you choose whichever creates the least friction in the moment.
 
 ## Who Should Use AI Calorie Counting?
 

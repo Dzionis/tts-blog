@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-generate_article.py — Generate SEO blog posts for AIDente using Claude Code CLI.
+generate_article.py — Generate SEO blog posts for Text to Speech using Claude Code CLI.
 
 Uses your Claude Code subscription (no separate API key needed).
 Requires `claude` CLI to be installed and authenticated.
@@ -19,14 +19,14 @@ from datetime import date
 
 APP_STORE_URL = "https://apps.apple.com/us/app/aidente-ai-calorie-counter/id6751173116"
 
-PROMPT_TEMPLATE = """Generate a complete Jekyll blog post for the AIDente blog (AI Calorie Counter iOS app).
+PROMPT_TEMPLATE = """Generate a complete Jekyll blog post for the Text to Speech blog (Text to Speech iOS app).
 
 Topic: {topic}
 Primary keyword: {keyword}
 Today's date: {today}
 
 Requirements:
-- Start with Jekyll front matter (--- block) containing: layout: post, title, description (under 155 chars), date ({today} 10:00:00 +0000), categories (list), author: AIDente Team
+- Start with Jekyll front matter (--- block) containing: layout: post, title, description (under 155 chars), date ({today} 10:00:00 +0000), categories (list), author: Text to Speech Team
 - 900–1100 words of body content
 - H2 and H3 headings for structure
 - Primary keyword used naturally 3–5 times
@@ -34,7 +34,7 @@ Requirements:
 - No filler openers like "In today's world..." or "Are you looking for..."
 - Use hedged language for statistics: "studies suggest", "research indicates"
 - Do NOT include any App Store links — the layout adds a CTA button automatically
-- End with H2 "Start Tracking with AIDente" — 2–3 sentences, no links
+- End with H2 "Start Listening with Text to Speech" — 2–3 sentences, no links
 
 Output ONLY the raw markdown content, nothing else. No commentary before or after."""
 

@@ -4,7 +4,7 @@ title: "What Is a Calorie Deficit and How Do You Actually Hit One?"
 description: "A calorie deficit is the foundation of weight loss — but knowing what it is and consistently hitting it are two different things. Here's how to do both."
 date: 2026-01-05 10:00:00 +0000
 categories: [weight-loss]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Every reliable approach to weight loss rests on the same foundation: eating fewer calories than your body burns. That gap between what you consume and what you use is called a calorie deficit. It's not a complex concept, but consistently hitting one is harder than it sounds — and many people who understand the theory still struggle to translate it into daily practice.
@@ -82,6 +82,6 @@ Once you understand the math, the challenge becomes execution. A few approaches 
 
 **Build in a maintenance day each week.** Eating at maintenance one day per week can reduce the psychological pressure of a deficit without meaningfully affecting weekly results.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-The hardest part of maintaining a calorie deficit isn't the math — it's the consistent awareness of what you're actually eating. AIDente makes that part effortless: photograph your meals and AIDente logs your calories and macros instantly, so you always know where you stand against your target. When hitting a calorie deficit feels low-friction, it becomes something you can actually sustain.
+The hardest part of maintaining a calorie deficit isn't the math — it's the consistent awareness of what you're actually eating. Text to Speech makes that part effortless: photograph your meals and Text to Speech logs your calories and macros instantly, so you always know where you stand against your target. When hitting a calorie deficit feels low-friction, it becomes something you can actually sustain.

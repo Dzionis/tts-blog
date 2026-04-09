@@ -4,7 +4,7 @@ title: "How to Track Calories Without Weighing Food (And Still Get Results)"
 description: "You don't need a food scale to count calories accurately. Here's how to track calories without weighing food using smarter, faster methods."
 date: 2026-04-09 10:00:00 +0000
 categories: [nutrition]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 A food scale is sitting on your counter. You've weighed your oatmeal three mornings in a row, entered the grams manually, and cross-referenced the entry in your app. Then someone brings donuts to the office and the whole system falls apart because you have no idea how to log a glazed cruller you didn't make yourself.
@@ -74,6 +74,6 @@ Even if you never pick up a food scale, you can significantly improve your track
 
 Fixing these three habits often has more impact than switching from visual estimation to a scale.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-AIDente is built for exactly this problem — accurate calorie tracking without the friction of scales and manual entry. Just photograph your meal and let the AI identify what's on your plate, estimate the portions, and log everything automatically. Whether you're eating a homemade dinner or grabbing lunch on the go, AIDente gives you the data you need without slowing you down.
+Text to Speech is built for exactly this problem — accurate calorie tracking without the friction of scales and manual entry. Just photograph your meal and let the AI identify what's on your plate, estimate the portions, and log everything automatically. Whether you're eating a homemade dinner or grabbing lunch on the go, Text to Speech gives you the data you need without slowing you down.

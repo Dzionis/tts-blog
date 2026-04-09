@@ -4,7 +4,7 @@ title: "The Best Way to Track Calories When You Cook at Home"
 description: "Tracking calories in homemade meals is the hardest part of food logging. Here are the methods that actually work — without rebuilding every recipe from scratch."
 date: 2026-02-03 10:00:00 +0000
 categories: [nutrition]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Logging a banana or a packaged yogurt is easy. Logging the pasta dish you made from scratch — with olive oil, onions, garlic, canned tomatoes, ground beef, and a handful of parmesan — is genuinely annoying. Home cooking is where most calorie tracking falls apart, because real meals don't come with barcodes.
@@ -76,6 +76,6 @@ Whatever method you use, certain high-calorie ingredients tend to go unlogged be
 
 Being deliberate about these additions closes one of the most common accuracy gaps in home-cooking logs.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-AIDente is designed to make tracking calories in homemade meals feel as natural as taking a photo. Snap your plated dish and the AI breaks down what it sees — ingredients, portions, and a calorie estimate — in seconds. For cooks who want to stay on top of their nutrition without turning dinner prep into data entry, AIDente is the fastest path from stove to logged.
+Text to Speech is designed to make tracking calories in homemade meals feel as natural as taking a photo. Snap your plated dish and the AI breaks down what it sees — ingredients, portions, and a calorie estimate — in seconds. For cooks who want to stay on top of their nutrition without turning dinner prep into data entry, Text to Speech is the fastest path from stove to logged.

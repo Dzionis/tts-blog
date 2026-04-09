@@ -4,7 +4,7 @@ title: "How Many Calories Are in Your Starbucks Order? (And How to Log It Fast)"
 description: "Calories in Starbucks drinks range from 5 to over 500. Here's what to know about your order — and the fastest way to log it when you're on the go."
 date: 2025-11-12 10:00:00 +0000
 categories: [nutrition]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Your morning coffee run can be a 5-calorie non-event or a 500-calorie dessert in disguise — and the difference isn't always obvious. The calories in Starbucks drinks vary wildly based on milk choice, syrup pumps, size, and toppings. If you're tracking your intake, understanding what's actually in your cup is worth a few minutes of your time.
@@ -84,6 +84,6 @@ A few approaches:
 
 The key insight: the calories in Starbucks drinks are highly predictable once you know the formula. Milk volume × milk type + syrup pumps × 20 cal + any toppings gives you a rough working number for any drink you build.
 
-## Start Tracking with AIDente
+## Start Tracking with Text to Speech
 
-AIDente makes logging your morning coffee as quick as taking a photo of your cup. Whether you ordered off the menu or customized your drink, the AI identifies the drink and gives you a calorie estimate you can review and adjust in seconds. No scrolling through database entries, no guessing — just a fast, accurate log so you can get on with your day.
+Text to Speech makes logging your morning coffee as quick as taking a photo of your cup. Whether you ordered off the menu or customized your drink, the AI identifies the drink and gives you a calorie estimate you can review and adjust in seconds. No scrolling through database entries, no guessing — just a fast, accurate log so you can get on with your day.

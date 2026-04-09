@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Privacy Policy"
-description: "AIDente privacy policy — how we collect, use, and protect your data."
+description: "Text to Speech privacy policy — how we collect, use, and protect your data."
 ---
 
 **Effective Date: 14/09/2025**
 
-AIDente, developed and operated by Yauheni Chyruk ("we," "our," or "us"), respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application (the "App").
+Text to Speech, developed and operated by Yauheni Chyruk ("we," "our," or "us"), respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application (the "App").
 
 ## 1. Information We Collect
 

@@ -4,7 +4,7 @@ title: "How to Lose Weight with AI Nutrition Tracking"
 description: "A practical guide to using AI nutrition tracking apps for weight loss. Learn how to set targets, build habits, and use AI calorie tools effectively."
 date: 2026-03-05 10:00:00 +0000
 categories: [weight-loss]
-author: AIDente Team
+author: Text to Speech Team
 ---
 
 Calorie tracking remains one of the most evidence-based strategies for weight loss. The challenge has never been the theory — creating a calorie deficit leads to weight loss — it's the practice. Logging every meal consistently, accurately, and indefinitely is genuinely hard.
