@@ -71,9 +71,10 @@ a { color: inherit; text-decoration: none; }
 
 /* ---- Buttons ---- */
 .btn-primary {
-  display: inline-block;
-  background: linear-gradient(135deg, #a855f7, #7c3aed);
-  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  color: #000;
   font-weight: 600;
   font-size: 0.95rem;
   padding: 12px 24px;
@@ -98,20 +99,21 @@ a { color: inherit; text-decoration: none; }
 .appstore-badge {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background: #000;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 10px;
+  gap: 8px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 24px;
+  border-radius: var(--radius);
   font-family: var(--font);
   transition: opacity 0.2s, transform 0.1s;
 }
-.appstore-badge:hover { opacity: 0.85; transform: translateY(-1px); }
-.badge-icon { font-size: 1.8rem; line-height: 1; }
-.badge-text { display: flex; flex-direction: column; align-items: center; line-height: 1.2; }
-.badge-subtitle { font-size: 0.65rem; opacity: 0.8; letter-spacing: 0.02em; }
-.badge-title { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
+.appstore-badge:hover { opacity: 0.9; transform: translateY(-1px); }
+.badge-icon { font-size: 1.2rem; line-height: 1; }
+.badge-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+.badge-subtitle { font-size: 0.6rem; letter-spacing: 0.02em; }
+.badge-title { font-size: 0.95rem; font-weight: 700; }
 
 /* ---- Hero ---- */
 .hero {
