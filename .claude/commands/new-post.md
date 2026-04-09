@@ -1,7 +1,7 @@
 Generate a new SEO blog post for the Text to Speech blog (Text to Speech iOS app) and save it to the `_posts/` folder.
 
 **Usage:** `/new-post topic | primary keyword`
-**Example:** `/new-post how to count macros for weight loss | macro counting app`
+**Example:** `/new-post how to listen to PDFs on iPhone | text to speech PDF`
 
 If $ARGUMENTS is empty, ask the user for the topic and primary keyword before proceeding.
 
@@ -18,7 +18,7 @@ Parse $ARGUMENTS by splitting on " | ":
 - `title:` SEO-optimized H1, include primary keyword naturally
 - `description:` Meta description, strictly under 155 characters
 - `date:` today's date in format `YYYY-MM-DD 10:00:00 +0000`
-- `categories:` single-item YAML list, pick one: `[nutrition]`, `[apps]`, `[weight-loss]`, or `[recipes]`
+- `categories:` single-item YAML list, pick one: `[productivity]`, `[apps]`, `[learning]`, or `[how-to]`
 - `author: Text to Speech Team`
 
 **Body content rules:**

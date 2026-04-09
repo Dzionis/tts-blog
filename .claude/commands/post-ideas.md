@@ -8,9 +8,9 @@ List all files in `_posts/` and read the `title:` line from the front matter of 
 
 Suggest **10 new blog post topics** that:
 - Are NOT already covered by existing posts (check titles from Step 1)
-- Target search queries people actually type about calorie tracking, nutrition, or weight loss
+- Target search queries people actually type about text to speech, audio reading, productivity, or accessibility
 - Each targets a distinct keyword with real search intent
-- Cover a variety of angles: how-to guides, comparisons, explainers, food-specific posts, app use cases
+- Cover a variety of angles: how-to guides, comparisons, explainers, use-case posts, app features
 
 For each idea, output:
 1. **Title** — ready-to-use SEO title
