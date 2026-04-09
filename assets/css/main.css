@@ -210,18 +210,39 @@ a { color: inherit; text-decoration: none; }
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
-.trust-inner {
+.trust-ways {
   display: flex;
   align-items: center;
-  gap: 48px;
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
-.trust-stat { text-align: center; min-width: 120px; }
-.trust-number { display: block; font-size: 3rem; font-weight: 700; color: var(--accent); line-height: 1; }
-.trust-label { font-size: 0.85rem; color: var(--text-muted); }
-.trust-divider { width: 1px; height: 60px; background: var(--border); flex-shrink: 0; }
-.trust-text { flex: 1; min-width: 200px; }
-.trust-text p { font-size: 1.1rem; color: var(--text-muted); font-style: italic; line-height: 1.6; }
+.trust-way {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+.trust-way-icon { font-size: 1.8rem; }
+.trust-way strong { font-size: 0.95rem; font-weight: 600; }
+.trust-way span { font-size: 0.8rem; color: var(--text-muted); }
+.trust-way-divider { width: 1px; height: 50px; background: var(--border); flex-shrink: 0; }
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.review-card {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.review-stars { color: var(--accent); font-size: 0.9rem; margin-bottom: 10px; letter-spacing: 2px; }
+.review-card p { font-size: 0.9rem; color: var(--text-muted); font-style: italic; line-height: 1.6; margin-bottom: 12px; }
+.review-author { font-size: 0.8rem; font-weight: 600; color: var(--text); }
 
 /* ---- Bottom CTA ---- */
 .bottom-cta {
@@ -355,8 +376,8 @@ a { color: inherit; text-decoration: none; }
   .hero-sub { max-width: 100%; }
   .hero-cta { align-items: center; }
   .hero-visual { margin-top: 40px; }
-  .trust-inner { justify-content: center; }
-  .trust-divider { display: none; }
+  .trust-way-divider { display: none; }
+  .reviews-grid { grid-template-columns: 1fr; }
   .posts-grid { grid-template-columns: 1fr; }
   .blog-preview-header { flex-direction: column; gap: 12px; align-items: flex-start; }
   .post-cta { padding: 28px 20px; }
