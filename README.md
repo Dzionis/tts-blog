@@ -1,62 +1,62 @@
-# AIDente Blog
+# Text to Speech Blog
 
-SEO-блог для приложения [AIDente - AI Calorie Counter](https://apps.apple.com/us/app/id739280962).
+SEO blog for the [Text to Speech - AI Book Reader](https://apps.apple.com/us/app/id739280962) iOS app.
 
-Сайт: **aidente.net** · Стек: Jekyll + GitHub Pages · Деплой: автоматический при push в `main`
+Site: **text2speech.co** · Stack: Jekyll + GitHub Pages · Deploy: automatic on push to `main`
 
 ---
 
-## Быстрый старт: добавить новую статью
+## Quick start: add a new post
 
-### Способ 1 — Slash-команда в Claude Code (рекомендуется)
+### Option 1 — Slash command in Claude Code (recommended)
 
-Открой VSCode с Claude Code и введи в чате:
-
-```
-/new-post тема статьи | primary keyword
-```
-
-**Примеры:**
+Open VSCode with Claude Code and type in chat:
 
 ```
-/new-post how to count macros for weight loss | macro counting app
-/new-post best protein foods for muscle gain | high protein foods
-/new-post calorie deficit explained | calorie deficit for weight loss
-/new-post intermittent fasting calorie tracking | intermittent fasting calories
+/new-post topic | primary keyword
 ```
 
-Claude сгенерирует статью и **сам сохранит файл** в `_posts/`. Затем:
+**Examples:**
+
+```
+/new-post how to listen to PDFs on iPhone | text to speech PDF
+/new-post best text to speech apps for studying | text to speech for students
+/new-post how to convert photos to audio | image to speech app
+/new-post speed reading with text to speech | listen faster with TTS
+```
+
+Claude will generate the post and **save the file automatically** to `_posts/`. Then:
 
 ```bash
 git add _posts/
-git commit -m "Add: [название статьи]"
+git commit -m "Add: [post title]"
 git push
 ```
 
-Через ~2 минуты статья появится на сайте автоматически.
+The post will appear on the site in ~2 minutes.
 
 ---
 
-### Способ 2 — Python скрипт из терминала
+### Option 2 — Python script from terminal
 
-Требует установленного и авторизованного Claude Code CLI (`claude`).
+Requires Claude Code CLI (`claude`) installed and authenticated.
 
 ```bash
-# Из корня проекта:
+# From the project root:
 python scripts/generate_article.py \
-  --topic "how to track calories when eating out" \
-  --keyword "tracking calories restaurant"
+  --topic "how to use text to speech for studying" \
+  --keyword "text to speech for students"
 
-# С указанием папки:
+# With explicit output folder:
 python scripts/generate_article.py \
-  --topic "best foods for weight loss" \
-  --keyword "weight loss foods" \
+  --topic "best voices for long listening sessions" \
+  --keyword "best TTS voice" \
   --output _posts/
 ```
 
-Скрипт вызывает `claude --print` под капотом — никаких API ключей не нужно.
+The script calls `claude --print` under the hood — no API keys needed.
 
-После генерации:
+After generating:
 
 ```bash
 git add _posts/
@@ -66,85 +66,85 @@ git push
 
 ---
 
-## Деплой
+## Deploy
 
-Деплой происходит **автоматически** при каждом `git push` в ветку `main` через GitHub Actions.
+Deploy happens **automatically** on every `git push` to `main` via GitHub Actions.
 
-Статус деплоя: вкладка **Actions** в репозитории на GitHub.
+Deploy status: **Actions** tab in the GitHub repository.
 
-**Первоначальная настройка GitHub Pages** (один раз):
-1. Открой репозиторий на GitHub
-2. Settings → Pages → Source → выбери **"GitHub Actions"**
-3. Запушь код — сайт задеплоится автоматически
-
----
-
-## Идеи для статей
-
-SEO-запросы, под которые стоит писать:
-
-| Тема | Keyword |
-|------|---------|
-| Как считать калории без весов | calorie counting without scale |
-| Лучшие продукты с высоким белком | high protein low calorie foods |
-| Что такое дефицит калорий | calorie deficit explained |
-| Как похудеть не считая калории | how to lose weight without counting calories |
-| Трекер калорий для начинающих | calorie tracker for beginners |
-| AI vs ручной трекинг | AI calorie tracking vs manual |
-| Макросы для похудения | macros for weight loss |
-| Как отслеживать питание в ресторане | tracking calories eating out |
-| Лучшие приложения для похудения | best weight loss apps iPhone |
-| Калории в домашней еде | how to track homemade meals calories |
+**Initial GitHub Pages setup** (one time only):
+1. Open the repository on GitHub
+2. Settings → Pages → Source → select **"GitHub Actions"**
+3. Push any commit — the site deploys automatically
 
 ---
 
-## Структура проекта
+## Post ideas
+
+SEO topics worth targeting:
+
+| Topic | Primary keyword |
+|-------|-----------------|
+| How to listen to any book without an audiobook | listen to books without audiobook |
+| Best text to speech apps for iPhone | best TTS apps iPhone |
+| How to import PDFs into a TTS app | text to speech PDF iPhone |
+| How to use TTS for studying | text to speech for studying |
+| How to listen while commuting | listen to articles while commuting |
+| Convert photos and documents to audio | image to speech app |
+| Speed up reading with text to speech | listen faster with TTS |
+| How to choose the best TTS voice | best text to speech voice |
+| Text to speech vs audiobooks | TTS vs audiobooks |
+| How to listen to web articles on iPhone | listen to web pages iPhone |
+
+---
+
+## Project structure
 
 ```
-aidente-blog/
-├── _config.yml          # Настройки Jekyll, app_store_url
-├── _layouts/            # Шаблоны страниц
-│   ├── default.html     # Базовый HTML
-│   ├── post.html        # Шаблон статьи (с CTA блоком)
-│   └── page.html        # Шаблон страницы
-├── _includes/           # Переиспользуемые части
+tts-blog/
+├── _config.yml          # Jekyll settings, app_store_url
+├── _layouts/            # Page templates
+│   ├── default.html     # Base HTML
+│   ├── post.html        # Post template (with CTA block)
+│   └── page.html        # Static page template
+├── _includes/           # Reusable partials
 │   ├── header.html
 │   ├── footer.html
-│   └── seo-head.html    # SEO теги + Smart App Banner
-├── _posts/              # Статьи блога (YYYY-MM-DD-slug.md)
-├── assets/css/main.css  # Весь CSS
-├── index.html           # Лендинг
-├── blog/index.html      # Листинг статей
+│   └── seo-head.html    # SEO tags + Smart App Banner
+├── _posts/              # Blog posts (YYYY-MM-DD-slug.md)
+├── assets/css/main.css  # All CSS
+├── index.html           # Landing page
+├── blog/index.html      # Post listing
 ├── scripts/
-│   └── generate_article.py  # Генератор статей через Claude CLI
+│   └── generate_article.py  # Article generator via Claude CLI
 ├── .claude/commands/
-│   └── new-post.md      # /new-post slash-команда
+│   └── new-post.md      # /new-post slash command
 ├── .github/workflows/
-│   └── deploy.yml       # Auto-deploy на GitHub Pages
-└── CNAME                # aidente.net
+│   └── deploy.yml       # Auto-deploy to GitHub Pages
+└── CNAME                # text2speech.co
 ```
 
 ---
 
-## Формат статьи
+## Post format
 
-Каждый файл в `_posts/` — это Markdown с Jekyll front matter:
+Every file in `_posts/` is Markdown with Jekyll front matter:
 
 ```markdown
 ---
 layout: post
-title: "Заголовок статьи"
-description: "Мета-описание до 155 символов"
-date: 2026-04-09 10:00:00 +0000
-categories: [nutrition]
-author: AIDente Team
+title: "How to Listen to Any Book Without an Audiobook"
+description: "Meta description under 155 characters."
+date: 2026-04-10 10:00:00 +0000
+categories: [how-to]
+author: Text to Speech Team
 ---
 
-Текст статьи...
+Post body...
 
-## Start Tracking with AIDente
+## Start Listening with Text to Speech
 
-Финальный абзац про приложение (ссылку не нужно — layout добавит кнопку автоматически).
+Final paragraph positioning the app as the solution. No App Store link needed — the layout adds a CTA button automatically.
 ```
 
-Допустимые категории: `nutrition`, `apps`, `weight-loss`, `recipes`
+Valid categories: `productivity`, `apps`, `learning`, `how-to`
