@@ -1,11 +1,13 @@
 (function () {
   var observer = new IntersectionObserver(
     function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
+      var visible = entries.filter(function (e) { return e.isIntersecting; });
+      visible.forEach(function (entry, i) {
+        var el = entry.target;
+        el.style.transitionDelay = (i * 80) + 'ms';
+        el.classList.add('is-visible');
+        observer.unobserve(el);
+        setTimeout(function () { el.style.transitionDelay = ''; }, 500 + i * 80);
       });
     },
     { threshold: 0.12 }
@@ -13,9 +15,8 @@
 
   document.querySelectorAll(
     '.feature-card, .way-card, .review-card, .post-card'
-  ).forEach(function (card, i) {
+  ).forEach(function (card) {
     card.classList.add('animate-on-scroll');
-    card.style.transitionDelay = (i % 4) * 80 + 'ms';
     observer.observe(card);
   });
 })();
