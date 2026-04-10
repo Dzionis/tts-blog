@@ -17,7 +17,8 @@ image:
       <h1>Listen Instead of Reading</h1>
       <p class="hero-sub">Turn text, PDFs, docs, and web pages into natural-sounding audio on iPhone.</p>
       <div class="hero-cta">
-        <a href="{{ site.app_store_url }}" class="btn-primary" target="_blank" rel="noopener" aria-label="Download Text to Speech: AI Book Reader on the App Store">
+        <a href="{{ site.app_store_url }}" class="btn-primary" target="_blank" rel="noopener" aria-label="Download Text to Speech: AI Book Reader on the App Store"
+           data-ga-event="hero_cta_click" data-ga-location="hero" data-ga-destination="{{ site.app_store_url }}">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><path d="M12 15V3m0 12-4-4m4 4 4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
           Download on App Store
         </a>
@@ -126,7 +127,8 @@ image:
   <div class="container bottom-cta-inner">
     <h2>Listen Anywhere, Anytime</h2>
     <p>A faster, easier way to turn reading into listening for work, study, and daily life.</p>
-    <a href="{{ site.app_store_url }}" class="btn-primary" target="_blank" rel="noopener">
+    <a href="{{ site.app_store_url }}" class="btn-primary" target="_blank" rel="noopener"
+       data-ga-event="cta_click" data-ga-location="bottom_cta" data-ga-destination="{{ site.app_store_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px"><path d="M12 15V3m0 12-4-4m4 4 4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
       Start Listening
     </a>
@@ -143,7 +145,8 @@ image:
     </div>
     <div class="posts-grid">
       {% for post in site.posts limit:3 %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
+      <a href="{{ post.url | relative_url }}" class="post-card"
+         data-ga-event="blog_post_click" data-ga-location="homepage_blog_preview" data-ga-post-title="{{ post.title }}">
         <div class="post-card-meta">
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
           {% if post.categories.first %}<span class="tag">{{ post.categories.first }}</span>{% endif %}

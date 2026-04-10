@@ -6,6 +6,7 @@ url: "https://text2speech.co"
 baseurl: ""
 
 app_store_url: "https://apps.apple.com/us/app/id739280962"
+ga_measurement_id: "G-02VV0R6Y60"
 
 author:
   name: Text to Speech Team
