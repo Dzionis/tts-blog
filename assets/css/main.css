@@ -225,7 +225,7 @@ a { color: inherit; text-decoration: none; }
 }
 .ways-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 .way-card {
@@ -237,7 +237,7 @@ a { color: inherit; text-decoration: none; }
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .way-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); border-color: var(--accent); }
-.way-icon { font-size: 2.2rem; width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; background: rgba(185,126,248,0.15); border: 1px solid rgba(185,126,248,0.25); border-radius: 16px; margin: 0 auto 20px; }
+.way-icon { width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; background: rgba(185,126,248,0.15); border: 1px solid rgba(185,126,248,0.25); border-radius: 16px; margin: 0 auto 20px; color: var(--accent); }
 .way-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
 .way-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
 
@@ -432,6 +432,9 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .ways-grid { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 768px) {
   .container { padding: 0 26px; }
   .hero-inner { grid-template-columns: 1fr; text-align: center; }
