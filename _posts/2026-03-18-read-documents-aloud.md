@@ -2,7 +2,7 @@
 layout: post
 title: "Read Documents Aloud: How to Listen to Any File on Your iPhone"
 description: "How to read documents aloud on iPhone using text to speech — PDFs, Word files, emails, and more. Save time and reduce screen fatigue."
-date: 2026-04-10 10:00:00 +0000
+date: 2026-03-18 10:00:00 +0000
 categories: [productivity]
 author: Text to Speech Team
 ---

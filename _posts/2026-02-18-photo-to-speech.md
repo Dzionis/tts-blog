@@ -2,7 +2,7 @@
 layout: post
 title: "Photo to Speech: Hear Any Text You Point Your Camera At"
 description: "Photo to speech uses your iPhone camera and OCR to read anything aloud — menus, signs, labels, printed pages, and more. Here's how it works."
-date: 2026-04-10 10:00:00 +0000
+date: 2026-02-18 10:00:00 +0000
 categories: [apps]
 author: Text to Speech Team
 ---
